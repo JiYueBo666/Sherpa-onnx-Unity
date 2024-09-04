@@ -26,9 +26,11 @@ Unity 中使用 Sherpa-onnx(附带热词功能)
 ### b. 从 Sherpa-Onnx 官方处下载支持热词功能的模型
 
 前往 Sherpa-Onnx 官方网站或指定位置下载带有热词功能的模型文件，并将其放置在项目的`StreamingAssets`文件夹下。
+例如你下载的模型叫做”zipformer“，里面有 encoder、decoder 等模型文件。那么就将 zipformer 文件夹放到 StreamingAssets 文件下。
 
 ### c. 填写路径信息（不要有中文路径）
 
-在项目配置中，请确保所有涉及到的路径信息均不包含中文字符，以避免潜在的兼容性问题。
+然后按照所需变量，添加模型文件。
+![示例图片](1.png)
 
 ## 感谢新一代 kaldi 团队开发）
